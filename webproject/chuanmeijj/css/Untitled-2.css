@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,h1,img,p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	font-family: 宋体;
+	font-size: 14px;
+	background-color: white;
+}
+#grandfather{
+	width: 1000px;
+	height: auto;
+	margin: 10px auto 0 auto;
+	overflow: hidden;
+}
+#grandfather h1 {
+	height: 26px;
+	border-left: solid 4px red;
+	padding-left: 5px;
+	margin: 10px 0;
+	link-height: 26px;
+	font-family: 微软雅黑;
+	font-size:26px;
+}
+.father{
+	width: 1000px;
+	height: auto;
+	overflow: hidden;
+	padding: 20px 0;
+	border-top: solid 1px gray;
+}
+.left{
+	width: 190px;
+	height: 120px;
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.right{
+	float: left;
+	width: 790px;
+	height: 120px;
+}
+.left img:hover {
+	transform: scale(1.2);/*放大1.2倍*/
+	transform: transform 0.6s;
+}
+/*.left img {
+	transform: transform 0.6s;使用transition定义标签元素的变换属性过渡动画效果
+}*/
+.right h2{
+	margin:10px 0;
+	font-size: 24px;
+}
+.right p{
+	margin: 10px 0;
+	text-align: justify;
+}
+.ly span{
+	margin-right: 10em;
+}
+.ly img{
+	vertical-align: middle;
+	margin-right: 0.5em;
+}
+.father:hover{
+	background-color: #EAF6F7;
+}
+
